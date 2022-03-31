@@ -93,24 +93,21 @@ body {
  */
 .information {
   background-color: #f9faf8;
+  text-align: center;
   padding: 60px;
 }
 
 .information__content {
   margin: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .information__title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
   color: #1f2937;
-}
-
-.information__content {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
 }
 
 .information-image-box__image {
@@ -123,8 +120,8 @@ body {
 .information-image-box figcaption {
   width: 168px;
   font-size: 18px;
-  text-align: center;
   color: #1f2937;
+  margin-top: 12px;
 }
 
 /*
@@ -158,10 +155,10 @@ body {
 /*
  * CALL-TO-ACTION SECTION
  */
- .call-to-action__section {
-   padding: 100px;
-   background-color: #f9faf8;
- }
+.call-to-action__section {
+  padding: 100px;
+  background-color: #f9faf8;
+}
 
 .call-to-action__area {
   display: flex;
